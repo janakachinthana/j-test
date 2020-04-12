@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.janaka.jtest">
+    package="com.example.ecommerce">
 
     <application
         android:allowBackup="true"
@@ -9,10 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name=".RestPasswordActivity" />
+        <activity android:name=".AdminMaintainProductActivity" />
+        <activity android:name=".AdminUserProductActivity" />
+        <activity android:name=".AdimnNewOrderActivity" />
+        <activity android:name=".ConfirmFinalOrderActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".Product_Details_Activity" />
+        <activity android:name=".Customer_Main_Category_Activity" />
+        <activity android:name="com.example.authenticatorapp.other.Customer_Main_Category_Activity" />
+        <activity android:name=".Customer_view_Category" />
+        <activity android:name=".Categories" />
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AdminCategoryActivity" />
+        <activity android:name=".AdminAddNewProductActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

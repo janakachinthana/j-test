@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.janaka.jtest.ui.home.HomeFragment"
+        android:name="com.example.ecommerce.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_home_second"
-        android:name="com.janaka.jtest.ui.home.HomeSecondFragment"
+        android:name="com.example.ecommerce.ui.home.HomeSecondFragment"
         android:label="@string/home_second"
         tools:layout="@layout/fragment_home_second">
         <action
@@ -29,15 +29,37 @@
             app:argType="string" />
     </fragment>
 
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.janaka.jtest.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.janaka.jtest.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_cart"
+        android:name="com.example.ecommerce.ui.cart.cartFragment"
+        android:label="Cart"
+        tools:layout="@layout/cart_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="com.example.ecommerce.ui.Categories.CategoriesFragment"
+        android:label="Categories"
+        tools:layout="@layout/categories_fragment" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.ecommerce.ui.Logout.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/logout_fragment" />
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.example.ecommerce.ui.Orders.OrdersFragment"
+        android:label="Orders"
+        tools:layout="@layout/cart_fragment" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.ecommerce.ui.Settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/settings_fragment" />
+
 </navigation>
